@@ -10,5 +10,3 @@ if(welCome=='petra'){
 var yourName= prompt("what is youf full name")
 
 document.write(<h1>yourName</h1>)
-
-
