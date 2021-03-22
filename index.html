@@ -2,10 +2,16 @@
 <html>
 
 <head>
+    
+
     <title>JORDAN-HISTORY</title>
+    <link rel="stylesheet" href="styling.css" />
 </head>
 
+
 <body>
+    <script src="javaapp2.js"></script>
+    
     <script>
         function changeBodyBg(color) {
             document.body.style.background = color;
@@ -14,20 +20,20 @@
 
 
     <hr>
-    <div>
+    <div id="bcl">
         <label>
             Change to your fav Background To:
         </label>
 
-        <button type="button" onclick="changeBodyBg('blue');">
-            blue
+        <button type="button" onclick="changeBodyBg('#b67162');">
+            color1
 
         </button>
-        <button type="button" onclick="changeBodyBg('lightgrey');">
-            lightgrey
+        <button type="button" onclick="changeBodyBg('#e2bcb7');">
+            color2
         </button>
-        <button type="button" onclick="changeBodyBg('orange');">
-            Orange
+        <button type="button" onclick="changeBodyBg('#e4d3cf');">
+            color3
         </button>
 
         <br>
@@ -35,9 +41,8 @@
     </div>
 
     <header>
-        <script src="javaapp2.js"></script>
 
-        
+
 
         <h1>JORDAN_HISTORY</h1>
         <nav>
@@ -54,7 +59,7 @@
                     <a href="">About Us</a>
 
                 </li>
-            
+
 
 
             </ul>
@@ -64,32 +69,65 @@
     </header>
     <main>
 
-        <section>
+        <section id="first">
             <h4>Welcome To Jordan</h4>
-            <p>You are welcome
+            <p>please Rate Us
             </p>
 
+        <section id="rating">
 
+            <meta charset="UTF-8">
+
+            <link rel="stylesheet" type="text/css" href="rating.css">
+
+                <div class="rate">
+
+                    <input type="radio" id="star5" name="rate" value="5" />
+
+                    <label for="star5" title="text">5 ★</label>
+
+                    <input type="radio" id="star4" name="rate" value="4" />
+
+                    <label for="star4" title="text">4 ★</label>
+
+                    <input type="radio" id="star3" name="rate" value="3" />
+
+                    <label for="star3" title="text">3 ★</label>
+
+                    <input type="radio" id="star2" name="rate" value="2" />
+
+                    <label for="star2" title="text">2 ★</label>
+
+                    <input type="radio" id="star1" name="rate" value="1" />
+
+                    <label for="star1" title="text">1 ★</label>
+
+                  </div>
+
+    
+
+        </section>
 
         </section>
 
 
-        <section>
-            <div>
+
+        <section id="second">
+            <div class="image">
                 <h2>PETRA</h2>
-                <img src="https://th.bing.com/th/id/OIP.7fKCSsjGrigIYEZHGthJmwHaE7?pid=ImgDet&rs=1" alt="">
+                <img src="https://th.bing.com/th/id/OIP.7fKCSsjGrigIYEZHGthJmwHaE7?pid=ImgDet&rs=1" width="300">
 
             </div>
-            <div>
+            <div class="image">
                 <h4>Jerash</h4>
-                <img src="https://th.bing.com/th/id/OIP.cvQXvYJuBNvl9HACwtwpGgHaD3?pid=ImgDet&rs=1" alt="">
+                <img src="https://th.bing.com/th/id/OIP.cvQXvYJuBNvl9HACwtwpGgHaD3?pid=ImgDet&rs=1" width="300">
 
             </div>
-            <div>
+            <div class="image">
                 <h4>Aqaba</h4>
                 <img src="https://th.bing.com/th/id/R7a0e15205efa536e05e3ee0717370ad5?rik=WyDCNOHiSuoLng&riu=http%3a%2f%2finspiration.rehlat.com%2fwp-content%2fuploads%2f2018%2f04%2fAqaba-1.jpg&ehk=L9J7dj0DgzXYF%2bB1I7WMXHF8B85ktQvTB1qeAuU6zkM%3d&risl=&pid=ImgRaw"
-                    alt="">
-                <img src="" alt="">
+                    width="300">
+
 
             </div>
         </section>

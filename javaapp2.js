@@ -9,7 +9,7 @@ if (r == true) {
 }
 var reminder = prompt("plz dont forget to provide us with your full name and phone number")
 alert("you are welcome " + reminder)
-alert("and dont forget o chose your colour from above")
+alert("and dont forget o chose your colour from aboveif you dont like the defu one")
 
 var welCome = prompt("you are welcomed here can you tell us which one of these is your fav place[PETRA],[JERASH],[AQABA] ?");
 
